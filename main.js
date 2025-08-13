@@ -118,10 +118,6 @@ plus.addEventListener('click', (e) => {
 })
 
 
-document.addEventListener('mouseup', () => {
-    clearInterval(decreaseInterval);
-    clearTimeout(Timeout)
-});
 
 
 
@@ -148,6 +144,7 @@ plus.addEventListener('mousedown', () => {
 });
 
 document.addEventListener('mouseup', () => {
+    clearInterval(decreaseInterval);
     clearInterval(increaseInterval);
     clearTimeout(Timeout)
 });
@@ -204,11 +201,6 @@ addToCart.addEventListener('click', () => {
         amount.textContent = '0'
     }
 })
-
-
-
-
-
 
 
 // check out
