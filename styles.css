@@ -179,6 +179,7 @@ a {
     transition: .3s;
     -webkit-user-select: unset;
     user-select: unset;
+    z-index: 12;
 }
 
 .header .cart-list .empty {
